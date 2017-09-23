@@ -5,10 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Battle3 {
+
+    // Ultra basic simulation of a game engine and its functionality
     class EngineSimulation {
 
 
-        public static void EngineCallPlaySound(string sound) {
+        public static void PlaySound(string sound) {
             Console.WriteLine("[ENGINE] Playing sound: " + sound);
         }
 

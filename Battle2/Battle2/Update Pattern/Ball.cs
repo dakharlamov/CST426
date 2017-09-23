@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Battle2 {
+
+    // An example of an update-able object
     class Ball : Entity {
 
         private float radius;

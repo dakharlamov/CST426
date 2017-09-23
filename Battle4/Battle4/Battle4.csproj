@@ -4,14 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6B4A3BF-B0D2-48A7-81E2-B8F5806C81DF}</ProjectGuid>
+    <ProjectGuid>{B1FB9373-5878-45D2-929F-B1D614AC5616}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Battle3</RootNamespace>
-    <AssemblyName>Battle3</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Battle4</RootNamespace>
+    <AssemblyName>Battle4</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,20 +37,15 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Subclass Sandbox\EngineSimulation.cs" />
-    <Compile Include="Subclass Sandbox\ExplosionSpell.cs" />
-    <Compile Include="Subclass Sandbox\JumpSpell.cs" />
-    <Compile Include="Subclass Sandbox\LevelUpSpell.cs" />
-    <Compile Include="Subclass Sandbox\Spell.cs" />
+    <Compile Include="Service Locator\GUI.cs" />
+    <Compile Include="Service Locator\GUIServiceLocator.cs" />
+    <Compile Include="Service Locator\MainMenuGUI.cs" />
+    <Compile Include="Service Locator\PauseMenuGUI.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />

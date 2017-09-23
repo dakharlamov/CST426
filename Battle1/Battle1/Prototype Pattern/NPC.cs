@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battle1
-{
-    //Prototype
-    class NPC
-    {
+namespace Battle1 {
+
+    //Prototype class for NPCs
+    class NPC {
+
         protected int health;
         protected int xp;
 
@@ -17,31 +17,36 @@ namespace Battle1
             xp = 25;
         }
 
+
+        //Generic Cloner method
         public virtual NPC clone() {
 
             return this;
 
         }
 
+        //Ease of debuging with ToString overload
         public override string ToString() {
-            
-            return "Type: " + this.GetType() + "\nHealth: " + this.health + "\nXP: " + this.xp + "\n";
+
+            return "Type: " + GetType() + "\nHealth: " + health + "\nXP: " + xp + "\n";
 
         }
 
+        //Getters and Setters below
+
         public void setHealth(int newHealth) {
-            this.health = newHealth;
+            health = newHealth;
         }
 
         public void setXP(int newXP) {
-            this.xp = newXP;
+            xp = newXP;
         }
 
         public int getHealth() {
             return health;
         }
 
-        public int getXP(){
+        public int getXP() {
             return xp;
         }
 

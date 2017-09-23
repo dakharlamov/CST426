@@ -4,14 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6B4A3BF-B0D2-48A7-81E2-B8F5806C81DF}</ProjectGuid>
+    <ProjectGuid>{6FA7E023-E7EB-40C3-9689-4B5257F5F61C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Battle3</RootNamespace>
-    <AssemblyName>Battle3</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Battle5</RootNamespace>
+    <AssemblyName>Battle5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,20 +37,14 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Subclass Sandbox\EngineSimulation.cs" />
-    <Compile Include="Subclass Sandbox\ExplosionSpell.cs" />
-    <Compile Include="Subclass Sandbox\JumpSpell.cs" />
-    <Compile Include="Subclass Sandbox\LevelUpSpell.cs" />
-    <Compile Include="Subclass Sandbox\Spell.cs" />
+    <Compile Include="RandomUtility.cs" />
+    <Compile Include="Object Pool\Vertex.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Object Pool\VertexPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />

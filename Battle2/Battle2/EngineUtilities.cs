@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace Battle2 {
 
-    public class Time{
+
+    // Does nothing but store deltaTime
+    public static class Time {
 
         public static float deltaTime;
-        
+
     }
 
+
+    // A super simple clone of Vector3 from Unity written for this pattern
     class Float3 {
 
         public float x, y, z;
 
-        public static Float3 up = new Float3(0,1,0);
+        public static Float3 up = new Float3(0, 1, 0);
         public static Float3 right = new Float3(1, 0, 0);
         public static Float3 forward = new Float3(0, 0, 1);
         public static Float3 zero = new Float3(0, 0, 0);

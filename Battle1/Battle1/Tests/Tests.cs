@@ -47,7 +47,7 @@ namespace Battle1 {
             NPCSpawner enemySpawner = new NPCSpawner(enemyNPC);
 
             for (int i = 0; i < 10; i++) {
-                if(i > 4)
+                if (i > 4)
                     npcList.Add(enemySpawner.spawnNPC());
                 else
                     npcList.Add(friendlySpawner.spawnNPC());

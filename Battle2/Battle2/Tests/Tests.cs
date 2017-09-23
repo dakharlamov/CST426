@@ -43,7 +43,7 @@ namespace Battle2 {
             }
 
             Console.WriteLine("Press enter to close test...");
-            Console.ReadLine();
+            Console.ReadLine(); // Wait
 
         }
     }

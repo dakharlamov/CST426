@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Battle2 {
+
+    // An example of an update-able object
     class Cube : Entity {
 
         private float scale;
 
         public override void Start() {
             base.Start();
-            position = new Float3(-10, 0 ,0);
+            position = new Float3(-10, 0, 0);
             scale = 5;
         }
 
