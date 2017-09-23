@@ -9,6 +9,7 @@ namespace Battle1 {
 
         static void Main(string[] args) {
 
+
             Console.WriteLine("Initializing Generic NPC...");
 
             NPC genericNPC = new NPC();
@@ -72,6 +73,8 @@ namespace Battle1 {
 
             Console.WriteLine("Press Enter to close results...");
             Console.ReadLine(); // Wait
+
+
         }
 
 

@@ -41,10 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RandomUtility.cs" />
-    <Compile Include="Object Pool\Vertex.cs" />
+    <Compile Include="Project\Vertex.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Object Pool\VertexPool.cs" />
+    <Compile Include="Project\VertexPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />

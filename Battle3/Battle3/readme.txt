@@ -3,7 +3,7 @@
 
 Subclass Sandbox Pattern
 
-The Subclass Sandbox folder contains all the source code for my implementation of the Subclass Sandbox design pattern.
+The Project folder contains all the source code for my implementation of the Subclass Sandbox design pattern.
 The tests folder contains the source code for the tests which contains the main entry point for the 
 program that creates the instances of the objects and test them.
 

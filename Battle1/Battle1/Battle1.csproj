@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Prototype Pattern\EnemyNPC.cs" />
-    <Compile Include="Prototype Pattern\FriendlyNPC.cs" />
-    <Compile Include="Prototype Pattern\NPC.cs" />
-    <Compile Include="Prototype Pattern\NPCSpawner.cs" />
+    <Compile Include="Project\EnemyNPC.cs" />
+    <Compile Include="Project\FriendlyNPC.cs" />
+    <Compile Include="Project\NPC.cs" />
+    <Compile Include="Project\NPCSpawner.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

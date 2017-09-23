@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Subclass Sandbox\EngineSimulation.cs" />
-    <Compile Include="Subclass Sandbox\ExplosionSpell.cs" />
-    <Compile Include="Subclass Sandbox\JumpSpell.cs" />
-    <Compile Include="Subclass Sandbox\LevelUpSpell.cs" />
-    <Compile Include="Subclass Sandbox\Spell.cs" />
+    <Compile Include="Project\EngineSimulation.cs" />
+    <Compile Include="Project\ExplosionSpell.cs" />
+    <Compile Include="Project\JumpSpell.cs" />
+    <Compile Include="Project\LevelUpSpell.cs" />
+    <Compile Include="Project\Spell.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

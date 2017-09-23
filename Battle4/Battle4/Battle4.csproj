@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service Locator\GUI.cs" />
-    <Compile Include="Service Locator\GUIServiceLocator.cs" />
-    <Compile Include="Service Locator\MainMenuGUI.cs" />
-    <Compile Include="Service Locator\PauseMenuGUI.cs" />
+    <Compile Include="Project\GUI.cs" />
+    <Compile Include="Project\GUIServiceLocator.cs" />
+    <Compile Include="Project\MainMenuGUI.cs" />
+    <Compile Include="Project\PauseMenuGUI.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
